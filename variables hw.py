@@ -1,0 +1,7 @@
+print("monday wakin up at 7 am,/n get ready and to school,/ncoming back to home at 4 pm,/n at 6 pm going to tuiton and coming back at 8 pm eating dinner and sleep")
+print("tuesday same as monday")
+print("wednesday excited to go to school to play hobby and same routine")
+print("thursday same as monday")
+print("friday same as monday")
+print("saturday we have full days,/n same as monday")
+print("sunday a very special day,/n holiday playing all the day")
