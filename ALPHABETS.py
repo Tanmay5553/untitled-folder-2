@@ -1,6 +1,6 @@
 z=(input("enter the alphabet"))
 
-if z==("HACKER"):
+if z==("1"):
     print("MR ...")
 
 else:
