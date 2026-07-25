@@ -1,6 +1,6 @@
 z=(input("enter the alphabet"))
 
-if z==("1"):
+if z==("A"):
     print("MR ...")
 
 else:
