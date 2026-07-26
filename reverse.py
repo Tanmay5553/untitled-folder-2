@@ -4,4 +4,4 @@ for i in name:
     revstr=i+revstr
 
 print("orignal string name:",name)
-print("reversed string is:",revstr)
+print("reverse string name:",revstr)
