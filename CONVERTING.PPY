@@ -1,0 +1,40 @@
+# Program to convert decimal to binary
+
+def decimal_to_binary(decimal_num):
+    """
+    Convert a decimal number to binary representation.
+    
+    Args:
+        decimal_num: An integer to convert to binary
+    
+    Returns:
+        A string representing the binary equivalent
+    """
+    if decimal_num == 0:
+        return "0"
+    
+    binary = ""
+    while decimal_num > 0:
+        binary = str(decimal_num % 2) + binary
+        decimal_num = decimal_num // 2
+    
+    return binary
+
+
+# Main program
+if __name__ == "__main__":
+    # Get decimal number from user
+    try:
+        decimal = int(input("Enter a decimal number: "))
+        
+        if decimal < 0:
+            print("Please enter a non-negative number.")
+        else:
+            binary = decimal_to_binary(decimal)
+            print(f"Decimal {decimal} in binary is: {binary}")
+            
+            # Alternative using built-in function
+            print(f"Using built-in bin(): {bin(decimal)}")
+    
+    except ValueError:
+        print("Invalid input! Please enter a valid integer.")
