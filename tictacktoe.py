@@ -19,7 +19,7 @@ def game():
     count=0
     for i in range(10):
         printBoard(theBoard)
-        print("it's your turn",+turn+".move to which place?")
+        print("it's your turn"+turn+".move to which place?")
         move=input()
         if theBoard[move]==' ':
             theBoard[move]=turn
@@ -75,7 +75,7 @@ def game():
         else:
             turn = 'x' 
 
-if _name_=="_main_"  
+if __name__=="__main__" : 
    game()         
             
             
